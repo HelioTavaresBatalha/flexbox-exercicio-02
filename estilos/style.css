@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+    height: 750px;
+    background-color: rgba(224, 142, 83, 0.672);
+    flex-direction: row;
+    /*align-items:flex-start;
+    //justify-content:flex-end;*/
+    flex-wrap: wrap;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-1 {
+    order: 4;
+}
+
+.caixa-2 {
+    order: 1;
+
+}
+
+.caixa-3 {
+    order: 3;
+}
+
+.caixa-4 {
+    order: 1;
+}
